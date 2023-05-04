@@ -1,0 +1,30 @@
+#footer{
+    display: flex;
+    width: 100%;
+}
+#footer input {
+    width: 100%;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 15px;
+    outline: none;
+    opacity: 0.85;
+}
+#footer #addToDo {
+    background: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    opacity: 0.85;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 10%;
+    color: rgb(107, 107, 107);
+    font-size: 30px;
+    transition: all 0.3s;
+}
+
+#footer #addToDo:active {
+    color: black;
+}
